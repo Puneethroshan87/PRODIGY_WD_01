@@ -1,0 +1,170 @@
+/* 
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    z-index: 100;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #ccc;
+}
+
+.scrolled {
+    background-color: #444;
+}
+
+.scrolled a {
+    color: #aaa;
+}
+
+
+
+
+.img{
+    width: 100%;
+    opacity: 0.5;
+    position: relative;
+}
+.top{
+    position: absolute;
+    top: 30%;
+    color: rgb(18, 17, 17);
+    left: 10%;
+    font-size: 40px;
+} */
+
+
+
+
+
+
+
+/* style.css */
+
+/* .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-toggle {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    background-color: #f0f0f0;
+    width: 100%;
+  }
+  
+  .nav-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Show navigation list on larger screens */
+  /* @media (min-width: 768px) {
+    .nav-toggle {
+      display: none;
+    }
+    .nav-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: transparent;
+    }
+    .nav-list li {
+      border-bottom: none;
+    }
+  } */ 
+
+
+
+
+  .nav-toggle {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .nav-toggle i {
+    font-size: 24px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    background-color: #f0f0f0;
+    width: 100%;
+  }
+  
+  .nav-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Show navigation list on larger screens */
+  @media (min-width: 768px) {
+    .nav-toggle {
+      display: none;
+    }
+    .nav-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: transparent;
+    }
+    .nav-list li {
+      border-bottom: none;
+    }
+  }
